@@ -1,0 +1,19 @@
+# Web framework
+fastapi>=0.95.0
+
+# ASGI сервер
+uvicorn[standard]>=0.22.0
+
+# ORM и асинхронный драйвер
+sqlalchemy>=2.0.0
+asyncpg>=0.27.0
+
+# Валидация настроек
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Фоновые задачи
+celery[redis]>=5.2.0
+redis>=4.0.0
+
+psycopg2-binary
